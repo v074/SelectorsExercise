@@ -1,0 +1,91 @@
+/* Switching the body's background to specified color. */
+body{
+    background-color:#CED4D8;
+}
+
+/* Switching the h1 element to the specified color. */
+h1{
+    color:#AC6AC7;
+}
+
+/* Switching all h2 elements to the specified color. */
+h2{
+    color:rgb(255,165,0);
+}
+
+/* Making all li elements blue */
+li{
+    color:blue;
+}
+
+/* Changing the background on every paragraph to gold */
+p{
+    background:gold;
+}
+
+/* Giving all inputs with type text or email a 5px pink dotted border */
+input[type="text"], input[type="email"]{
+    border: 5px dotted pink;
+}
+
+/* Giving all elements of class "first" a #fff background */
+.first{
+    background-color: #fff;
+}
+
+/* Giving the element with id "important" a 3px #0000FF (blue) dashed border */
+#important{
+    border: 3px dashed #0000FF;
+}
+
+/* giving all p elements within divs a 30px font size. */
+div p{
+    font-size:30px;
+}
+
+/* Giving email inputs an #808080 background color. */
+input[type="email"]{
+    background-color:#808080;
+}
+
+/* Giving all p elements within the third div a hot pink background */
+div:nth-of-type(3) p{
+    background-color:hotpink;
+}
+
+/* Giving the second p element within the 3rd div a 7px solid rgb(255,255,255)(white) border. */
+div:nth-of-type(3) p:nth-of-type(2){
+    border:7px solid rgb(255,255,255);
+}
+
+/* Giving the em tagged text in the third div seashell color and a 25px font size. */
+div:nth-of-type(3) em{
+    color:seashell;
+    font-size:25px
+}
+
+/* Giving all checked checkboxes a 40px left margin.  This does disappear when unchecked, and reappear when checked. */
+input[type="checkbox"]:checked{
+    margin-left:40px;
+}
+
+/* Making all the text in any and all label elements lower-case.  Entirely from CSS. */
+label{
+    text-transform:lowercase;
+}
+
+/* Selecting the first letter of the paragraph with ID of "important" and making it 90px in size and lime green. */
+#important:first-letter{
+    font-size:90px;
+    color:lime;
+}
+
+/* Making the h1 element turn navy when hovered over by the mouse. */
+h1:hover{
+    color:navy;
+}
+
+/* Changing the color of any and all a tags that have been visited to silver. */
+a:visited{
+    color:silver;
+}
